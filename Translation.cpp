@@ -1,14 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    string s,a;
-    cin>>s>>a;
-    reverse(s.begin(),s.end());
-    if(s==a){
-        cout<<"YES"<<endl;
-
-    }else{
-        cout<<"NO"<<endl;
-    }
-
-}
+ int a[5];    
+    cout << “address of a is " <<  (unsigned int)&a << endl;  
+    cout << "address of a[0] is " << (unsigned int)&a[0] << endl;  
+      
+    return 0;   
+} 
